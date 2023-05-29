@@ -24,8 +24,7 @@ public class Employee {
         this.address = address;
     }
 
-    public Employee() {
-    }
+    public Employee() {}
 
     public int getId() {
         return id;
