@@ -5,9 +5,9 @@ import com.liquidus.employeecrudapp.beans.Employee;
 import java.util.List;
 
 public interface EmployeeDAO {
-    public boolean addEmployee(Employee employee);
-    public boolean updateEmployee(Employee employee);
-    public boolean deleteEmployee(int employeeId);
-    public List<Employee> getAllEmployees();
-    public Employee getEmployee(int employeeId);
+    boolean addEmployee(Employee employee);
+    boolean updateEmployee(Employee employee);
+    boolean deleteEmployee(int employeeId);
+    List<Employee> getAllEmployees();
+    Employee getEmployee(int employeeId);
 }
